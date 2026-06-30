@@ -1,0 +1,19 @@
+{
+  "name": "wx-vue",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite serve",
+    "build:h5": "vite build --mode h5",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.0",
+    "pinia": "^2.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "vite": "^5.0.0",
+    "@dcloudio/vite-plugin-uni": "~3.0.0-3090720231104001" // Example for uni-app plugin, adjust version as needed
+  }
+}
